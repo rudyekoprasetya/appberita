@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+      <!--   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+<!-- Path to Framework7 Library CSS, Material Theme -->
+ <link rel="stylesheet" href="css/framework7.material.min.css">
+<!-- Path to Framework7 color related styles, Material Theme -->
+ <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+<!--  fonts Awesome -->
+ <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+<!-- Path to your custom app styles-->
+<link rel="stylesheet" href="css/my-app.css">
+
+
+        <title>Berita</title>
+    </head>
+    <body class="theme-red">
+
+<div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-cover">
+      <div class="content-block">
+        <p><h3>Pilih Kategori</h3></p>
+        <p><a href="sport.html" class="link close-panel">Olahraga</a></p>
+        <p><a href="hiburan.html" class="link close-panel">Hiburan</a></p>
+        <p><a href="kesehatan.html" class="link close-panel">Kesehatan</a></p>
+        <p><a href="bisnis.html" class="link close-panel">Bisnis</a></p>
+        <p><a href="teknologi.html" class="link close-panel">Teknologi</a></p>
+      </div>
+    </div>  
+
+<div class="views">
+    <div class="view view-main">
+        <div class="pages navbar-fixed">            
+            <div class="page" data-page="index">
+    <!-- untuk menu atas -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link icon-only open-panel">
+                        <i class="icon icon-bars"></i>
+                    </a>
+                </div>
+                <div class="center">
+                    Berita Hot
+                </div>
+                <div class="right">
+                    <a href="#" class="link icon-only">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>                
+            </div>
+        </div>
+    <!-- untuk menu atas -->
+
+    <!-- isi -->
+     <div class="page-content">
+
+    <div class="content-block" id="tempat_berita">
+
+        <div class="card">
+          <div class="card-header">Judul</div>
+          <div class="card-content"> 
+            <div class="card-content-inner">isi beritanya.</div>
+          </div>
+          <div class="card-footer">Sumber Berita</div>
+        </div>
+
+    </div>
+
+     </div>
+    
+    <!-- isi -->
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+
+    </body>
+</html>
